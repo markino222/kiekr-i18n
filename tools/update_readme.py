@@ -18,12 +18,14 @@ README = ROOT / "README.md"
 
 # Display order + native names + manager
 ROWS = [
-    ("en", "English",    "kiekr-team"),
-    ("de", "Deutsch",    "kiekr-team"),
-    ("es", "Español",    "community"),
-    ("fr", "Français",   "community"),
-    ("nl", "Nederlands", "community"),
-    ("it", "Italiano",   "community"),
+    ("en",    "English",            "kiekr-team"),
+    ("de",    "Deutsch",            "kiekr-team"),
+    ("es",    "Español",            "community"),
+    ("fr",    "Français",           "community"),
+    ("nl",    "Nederlands",         "community"),
+    ("it",    "Italiano",           "community"),
+    ("pt-BR", "Português (Brasil)", "community"),
+    ("pl",    "Polski",             "community"),
 ]
 
 BEGIN = "<!-- status:begin -->"
