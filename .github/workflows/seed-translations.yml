@@ -32,7 +32,11 @@ jobs:
       - name: Open PR with AI seeds
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer BOT_PAT so the PR triggers downstream workflows
+          # (validate.yml). Falls back to GITHUB_TOKEN if no PAT —
+          # PR will still open but the required `check` won't run
+          # automatically; close+reopen the PR to trigger it.
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
           branch: bot/ai-seed
           delete-branch: true
           title: "chore(seed): DeepL translations for new/missing keys"

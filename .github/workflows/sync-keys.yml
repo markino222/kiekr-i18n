@@ -26,7 +26,8 @@ jobs:
       - name: Open PR if changes
         uses: peter-evans/create-pull-request@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Prefer BOT_PAT so the PR triggers downstream workflows.
+          token: ${{ secrets.BOT_PAT || secrets.GITHUB_TOKEN }}
           branch: bot/sync-keys
           delete-branch: true
           title: "chore(sync): align community locales to en.json keyset"
