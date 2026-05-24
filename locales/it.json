@@ -196,7 +196,7 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_hop_candidates_explain": {
-    "value": "Diversi ripetitori corrispondono al prefisso breve del percorso di questo hop. Non possiamo scegliere automaticamente quello corretto: scegli quello che era sul tuo percorso.",
+    "value": "Diversi ripetitori corrispondono al prefisso breve di questo hop. Non riesco a scegliere automaticamente quello corretto: scegli quello che era sul tuo percorso.",
     "_human": true
   },
   "chat_detail_hop_looking_up": {
@@ -213,7 +213,7 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_hop_outside_radius": {
-    "value": "nessuna corrispondenza — i risultati online più vicini sono fuori dal raggio di plausibilità",
+    "value": "nessuna corrispondenza — i risultati online più vicini sono fuori da un raggio plausibile",
     "_human": true
   },
   "chat_detail_hop_prefix": {
@@ -226,7 +226,7 @@
     "_seeded": "2026-05-23"
   },
   "chat_detail_map_footer": {
-    "value": "Disegna la catena di ripetitori sulla mappa. Gli hop senza un advert ricevuto vengono mostrati come irrisolti.",
+    "value": "Disegna la catena dei ripetitori sulla mappa. Gli hop senza un advert ricevuto vengono mostrati come irrisolti.",
     "_human": true
   },
   "chat_detail_message_details": {
@@ -433,9 +433,8 @@
     "_seeded": "2026-05-23"
   },
   "chat_hidden_channel_key_footer": {
-    "value": "Tocca la chiave per copiarla. I canali vengono abbinati in base alla chiave, non al nome: è frequente che si verifichino conflitti.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Tocca la chiave per copiarla. I canali vengono abbinati in base alla chiave, non al nome: è possibile che si verifichino conflitti.",
+    "_human": true
   },
   "chat_hidden_channel_key_label": {
     "value": "Chiave del canale (tocca per copiare)",
@@ -697,9 +696,8 @@
     "_human": true
   },
   "chat_traffic_arrived": {
-    "value": "È arrivato il traffico. Tocca per controllare.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "È arrivato del traffico. Tocca per controllare.",
+    "_human": true
   },
   "chat_tx_attempt_mode_flood": {
     "value": "flood",
@@ -775,9 +773,8 @@
     "_seeded": "2026-05-23"
   },
   "map_age_any_time": {
-    "value": "In qualsiasi momento",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Tutto",
+    "_human": true
   },
   "map_age_custom": {
     "value": "Personalizzato",
@@ -879,12 +876,11 @@
     "_seeded": "2026-05-23"
   },
   "map_filter_section_network_proximity": {
-    "value": "Vicinanza di rete",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Vicinanza",
+    "_human": true
   },
   "map_filter_section_recency": {
-    "value": "Recenza",
+    "value": "Cronologico",
     "_human": true
   },
   "map_filter_section_visibility": {
@@ -1089,7 +1085,7 @@
     "_human": true
   },
   "mynode_broadcast_advert_footer": {
-    "value": "Gli altri nodi devono avere il nostro advert nella loro tabella dei contatti prima di poter decifrare i nostri DM. Tocca per scegliere la portata: zero-hop è silenzioso (solo vicini); flood è rumoroso (tutta la mesh).",
+    "value": "Gli altri nodi devono avere il nostro advert nella loro tabella dei contatti prima di poter decifrare i nostri DM. Tocca per scegliere la portata: zero-hop arriva solo ai tuoi vicini; flood arriva a tutta la mesh.",
     "_human": true
   },
   "mynode_broadcast_advert_row_title": {
@@ -1120,9 +1116,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_config_error_code": {
-    "value": "Codice di errore del firmware%1$d",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Codice di errore del firmware %1$d",
+    "_human": true
   },
   "mynode_config_error_name_rejected": {
     "value": "Il nodo ha rifiutato il nome «%1$s».",
@@ -1177,9 +1172,8 @@
     "_human": true
   },
   "mynode_dialog_broadcast_advert_title": {
-    "value": "Annuncio televisivo",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Annuncio globale",
+    "_human": true
   },
   "mynode_disconnect_footer": {
     "value": "Disconnetti interrompe il collegamento ma mantiene il bond in cache: tocca Connetti per ricollegarti senza rifare il pairing. Dimentica rimuove il pairing e svuota la cache; il nodo dovrà essere riassociato.",
@@ -1255,9 +1249,8 @@
     "_human": true
   },
   "mynode_forget_dialog_title": {
-    "value": "Hai dimenticato il nodo?",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Dimentico il nodo?",
+    "_human": true
   },
   "mynode_forget_footer": {
     "value": "Cancella l'abbinamento e l'identificatore memorizzato nella cache. Per riconnettersi, è necessario ri-abbinare il nodo.",
@@ -1279,9 +1272,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_lora_advanced_body_off": {
-    "value": "La modalità avanzata consente di impostare direttamente frequenza, larghezza di banda, frequenza di campionamento e risoluzione per configurazioni non presenti nel catalogo.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "La modalità avanzata consente di impostare direttamente frequenza, larghezza di banda, frequenza di campionamento e risoluzione per configurazioni non presenti nell'elenco.",
+    "_human": true
   },
   "mynode_lora_advanced_body_on": {
     "value": "La modalità avanzata consente di impostare direttamente frequenza, larghezza di banda, fattore di scala e rapporto di conversione. Intervalli del firmware: 400–2500 MHz, 7,8–500 kHz, fattore di scala 5–12, rapporto di conversione 4/5–4/8.",
@@ -1308,7 +1300,7 @@
     "_seeded": "2026-05-23"
   },
   "mynode_lora_community_footer": {
-    "value": "Il catalogo rispecchia la schermata “Select Radio Settings” dell’app MeshCore. Se la tua mesh locale non è elencata, usa Avanzate per impostare i valori grezzi.",
+    "value": "La lista rispecchia la schermata “Select Radio Settings” dell’app MeshCore. Se la tua mesh locale non è elencata, usa Avanzate per impostare i parametri maualmente.",
     "_human": true
   },
   "mynode_lora_community_header": {
@@ -1322,7 +1314,7 @@
     "_seeded": "2026-05-23"
   },
   "mynode_lora_current_device_footer": {
-    "value": "Ciò che il nodo associato riporta adesso. I preset qui sotto arrivano dal catalogo della community MeshCore: scegli quello usato dalla tua mesh locale.",
+    "value": "Ciò che il nodo associato riporta adesso. I preset qui sotto arrivano dalla lista della community MeshCore: scegli quello usato dalla tua mesh locale.",
     "_human": true
   },
   "mynode_lora_current_device_header": {
@@ -1361,9 +1353,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_lora_raw_values_header": {
-    "value": "Valori grezzi",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Parametri manuali",
+    "_human": true
   },
   "mynode_lora_reading_from_device": {
     "value": "Lettura dal dispositivo…",
@@ -1371,9 +1362,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_lora_search_placeholder": {
-    "value": "Preimpostazioni di ricerca",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ricerca preset",
+    "_human": true
   },
   "mynode_lora_sf_label": {
     "value": "SF",
@@ -1421,14 +1411,12 @@
     "_seeded": "2026-05-23"
   },
   "mynode_ok": {
-    "value": "Va bene",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "OK",
+    "_human": true
   },
   "mynode_open_wifi_connection_row_title": {
-    "value": "Connessione Wi-Fi aperta",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Apri connessione Wi-Fi",
+    "_human": true
   },
   "mynode_pair_a_node_footer": {
     "value": "Al primo abbinamento viene visualizzata la finestra di dialogo di abbinamento del sistema.",
@@ -1481,7 +1469,7 @@
     "_seeded": "2026-05-23"
   },
   "mynode_reboot_dialog_body": {
-    "value": "Il nodo si disconnette brevemente durante il riavvio. Usalo quando il dispositivo sembra bloccato o su hardware senza pulsante reset fisico. Sui nodi senza RTC con batteria tampone questo azzera anche un orologio andato avanti.",
+    "value": "Il nodo si disconnette brevemente durante il riavvio. Usalo quando il dispositivo sembra bloccato o su hardware senza pulsante reset fisico. Sui nodi senza RTC con batteria tampone questo sistema anche l'orologio.",
     "_human": true
   },
   "mynode_reboot_dialog_title": {
@@ -1549,9 +1537,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_stat_label_clock": {
-    "value": "orologio",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "ora",
+    "_human": true
   },
   "mynode_stat_label_dbm": {
     "value": "dBm",
@@ -1593,9 +1580,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_status_pairing_with": {
-    "value": "L'abbinamento con un bicchiere di \"%1$s\"...",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Abbinamento con %1$s…",
+    "_human": true
   },
   "mynode_status_scanning": {
     "value": "Scansione in corso…",
@@ -1628,9 +1614,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_wifi_host_label": {
-    "value": "Presentatore",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Host",
+    "_human": true
   },
   "mynode_wifi_host_placeholder": {
     "value": "192.168.1.42",
@@ -1638,9 +1623,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_wifi_port_label": {
-    "value": "Porto",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Porta",
+    "_human": true
   },
   "mynode_wifi_port_placeholder": {
     "value": "5000",
@@ -1648,9 +1632,8 @@
     "_seeded": "2026-05-23"
   },
   "mynode_zero_hop_body": {
-    "value": "Solo per i vicini. Silenzioso — nessuna inondazione. Da utilizzare solo quando i nodi vicini devono ricevere il tuo annuncio.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Solo per i vicini. Zero-hop, no flood. Da utilizzare solo quando i nodi vicini devono ricevere il tuo annuncio.",
+    "_human": true
   },
   "mynode_zero_hop_title": {
     "value": "Zero-hop",
@@ -1693,18 +1676,16 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_channel_scan_qr_subtitle": {
-    "value": "Punta la fotocamera verso un codice QR del canale",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Punta la fotocamera verso il codice QR del canale",
+    "_human": true
   },
   "nodes_add_channel_secret_footer": {
-    "value": "Il segreto è la chiave AES condivisa a 16 byte del canale, scritta come 32 caratteri esadecimali. Per i canali stile hashtag il segreto deriva automaticamente dal nome: lascia il simbolo # se preferisci usare quel metodo.",
+    "value": "Chiave condivisa a 16 byte del canale, scritta come 32 caratteri esadecimali. Per i canali hashtag la chiave deriva automaticamente dal nome: lascia il simbolo # se preferisci usare quel metodo.",
     "_human": true
   },
   "nodes_add_channel_secret_label": {
-    "value": "Segreto (32 caratteri esadecimali)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Chiave (32 caratteri esadecimali)",
+    "_human": true
   },
   "nodes_add_channel_section": {
     "value": "Canale",
@@ -1722,9 +1703,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_contact_pubkey_footer": {
-    "value": "La chiave pubblica è l'identità Ed25519 del contatto, composta da 32 byte e rappresentata da 64 caratteri esadecimali. Gli annunci successivi forniranno gli aggiornamenti relativi alla posizione GPS, al segnale e all'eventuale nome.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "La chiave pubblica è l'identità del contatto, composta da 32 byte e rappresentata da 64 caratteri esadecimali. Gli annunci successivi forniranno gli aggiornamenti relativi alla posizione GPS, al segnale e all'eventuale nome.",
+    "_human": true
   },
   "nodes_add_contact_pubkey_label": {
     "value": "Chiave pubblica (64 caratteri esadecimali)",
@@ -1732,9 +1712,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_contact_scan_qr_subtitle": {
-    "value": "Punta la fotocamera verso un codice QR di contatto",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Punta la fotocamera verso il codice QR del contatto",
+    "_human": true
   },
   "nodes_add_contact_section": {
     "value": "Contatti",
@@ -1752,9 +1731,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_error_channel_secret": {
-    "value": "La password deve essere composta da 32 caratteri esadecimali.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "La chiave deve essere composta da 32 caratteri esadecimali.",
+    "_human": true
   },
   "nodes_add_error_channel_store": {
     "value": "Impossibile aggiungere il canale. Potrebbe già esistere un canale con lo stesso nome ma con una chiave diversa.",
@@ -1777,9 +1755,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_install_body_other": {
-    "value": "I nodi con firmware predefinito richiedono che il contatto sia inserito in uno slot prima che il connettore possa riconoscerlo (ricerca del percorso, accesso, telemetria). Installalo ora oppure fallo in un secondo momento dalla pagina dei dettagli del nodo.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I nodi con firmware predefinito richiedono che il contatto sia inserito in uno slot prima che possa essere riconosciuto (ricerca del percorso, accesso, telemetria). Installalo ora oppure fallo in un secondo momento dalla pagina dei dettagli del nodo.",
+    "_human": true
   },
   "nodes_add_install_on_node": {
     "value": "Installa su nodo",
@@ -1842,9 +1819,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_rf_discover_title": {
-    "value": "Scopri RF",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Scansione radio",
+    "_human": true
   },
   "nodes_add_save": {
     "value": "Salva",
@@ -1877,9 +1853,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_type_companion": {
-    "value": "Compagno",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Companion",
+    "_human": true
   },
   "nodes_add_type_repeater": {
     "value": "Ripetitore",
@@ -1895,9 +1870,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_add_type_unknown": {
-    "value": "Tipo%1$d",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Tipo %1$d",
+    "_human": true
   },
   "nodes_admin_advert_flood": {
     "value": "Advert in flood",
@@ -1944,14 +1918,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_admin_cd_sync_clock": {
-    "value": "Esecuzione della sincronizzazione dell'orologio del ripetitore",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Sincronizza l'orologio del ripetitore",
+    "_human": true
   },
   "nodes_admin_channel_ctrl": {
-    "value": "Capitolo 0x00",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ch 0x00",
+    "_humen": true
   },
   "nodes_admin_channel_node": {
     "value": "Nodo",
@@ -1989,7 +1961,7 @@
     "_seeded": "2026-05-23"
   },
   "nodes_admin_error_contact_missing": {
-    "value": "Contatto ripetitore non trovato.",
+    "value": "Ripetitore non trovato.",
     "_human": true
   },
   "nodes_admin_error_crypto": {
@@ -2018,9 +1990,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_admin_error_storage": {
-    "value": "Errore di archiviazione locale. Riprovare.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Errore di archiviazione locale. Riprova.",
+    "_human": true
   },
   "nodes_admin_firmware_label": {
     "value": "Firmware",
@@ -2077,14 +2048,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_admin_run": {
-    "value": "Corri",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Esegui",
+    "_human": true
   },
   "nodes_admin_running": {
-    "value": "Correndo…",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "In esecuzione…",
+    "_human": true
   },
   "nodes_admin_session_title": {
     "value": "Sessione",
@@ -2112,9 +2081,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_cd_decrease_max_hops": {
-    "value": "Ridurre il numero massimo di hops",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ridurre il numero massimo di hop",
+    "_human": true
   },
   "nodes_cd_favorite": {
     "value": "Preferiti",
@@ -2132,9 +2100,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_cd_increase_max_hops": {
-    "value": "Aumentare il numero massimo di hops",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Aumentare il numero massimo di hop",
+    "_human": true
   },
   "nodes_cd_rename_contact": {
     "value": "Rinomina contatto",
@@ -2161,9 +2128,8 @@
     "_human": true
   },
   "nodes_default_region_bullet2": {
-    "value": "• Solo i ripetitori che consentono l'accesso alla regione inoltreranno i pacchetti con ambito specificato.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "• Solo i ripetitori relativi alla regione inoltreranno i pacchetti con ambito specificato.",
+    "_human": true
   },
   "nodes_default_region_bullet3": {
     "value": "• Lascia vuoto questo campo affinché i pacchetti in flood rimangano senza ambito.",
@@ -2175,7 +2141,7 @@
     "_seeded": "2026-05-23"
   },
   "nodes_default_region_disambig": {
-    "value": "Questo è l’ambito di flood predefinito del ripetitore. Per impostare la regione predefinita del tuo client, vai in Impostazioni → Messaggistica.",
+    "value": "Questa è la regione predefinita del ripetitore. Per impostare la regione predefinita del tuo client, vai in Impostazioni → Messaggistica.",
     "_human": true
   },
   "nodes_default_region_err_refresh": {
@@ -2194,14 +2160,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_default_region_label": {
-    "value": "Ambito predefinito della regione",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Regione predefinita",
+    "_human": true
   },
   "nodes_default_region_title": {
-    "value": "Ambito predefinito della regione",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "REgione predefinita",
+    "_human": true
   },
   "nodes_delete_confirm": {
     "value": "Elimina",
@@ -2209,9 +2173,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_delete_dialog_body": {
-    "value": "Contatti delle salviette, annuncio, password del ripetitore, stato di accesso, dati del percorso, scrollback della CLI, vicini, stato, telemetria. Messaggi diretti conservati.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Elimina contatti, annunci, password dei ripetitori, dati di login, dati dei percorsi, lista comandi CLI, vicini, stato, telemetria. I messaggi diretti saranno conservati.",
+    "_human": true
   },
   "nodes_delete_dialog_title": {
     "value": "Eliminare completamente il nodo?",
@@ -2219,9 +2182,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_acl_footer": {
-    "value": "Effettuando l'accesso, questo connettore viene aggiunto all'ACL del ripetitore, consentendo così il corretto funzionamento delle funzioni di individuazione del percorso, dei vicini e della telemetria. Se si inserisce una password vuota, viene tentata una riautenticazione basata esclusivamente sull'ACL, che va a buon fine solo se la chiave del connettore è già presente nell'ACL del ripetitore.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Effettuando l'accesso, questo companion viene aggiunto all'ACL del ripetitore, consentendo così il corretto funzionamento delle funzioni di individuazione del percorso, dei vicini e della telemetria. Se si inserisce una password vuota, viene tentata una riautenticazione basata esclusivamente sull'ACL, che va a buon fine solo se la chiave del companion è già presente nell'ACL del ripetitore.",
+    "_human": true
   },
   "nodes_detail_add_to_favorites": {
     "value": "Aggiungi ai preferiti",
@@ -2239,9 +2201,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_age_hours_ago": {
-    "value": "%1$d alcune ore fa",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "%1$d ore fa",
+    "_human": true
   },
   "nodes_detail_age_just_now": {
     "value": "proprio ora",
@@ -2254,9 +2215,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_assign_region": {
-    "value": "Assegna una regione in modo che i ripetitori inoltrino i tuoi messaggi sul canale corretto. Se non viene specificata una regione corrispondente, i ripetitori con ambito regionale ignorano il messaggio.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Assegna una regione in modo che i ripetitori inoltrino i tuoi messaggi nei territori corretti. Se non viene specificata una regione corrispondente, i ripetitori con ambito regionale potrebbero ignorare il messaggio.",
+    "_human": true
   },
   "nodes_detail_caps_flags": {
     "value": "caps 0x%1$02X",
@@ -2279,14 +2239,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_cd_refreshing": {
-    "value": "Rinfrescante",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Sto aggiornando",
+    "_human": true
   },
   "nodes_detail_cd_reset_path": {
-    "value": "Reimposta percorso",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Reset percorso",
+    "_human": true
   },
   "nodes_detail_copied_toast": {
     "value": "%1$s copiato",
@@ -2338,9 +2296,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_login_hint_empty": {
-    "value": "Se si inserisce una password vuota, viene tentata una riautenticazione basata esclusivamente sull'ACL: l'operazione va a buon fine solo se la chiave del connettore è già presente nell'ACL di questo ripetitore.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Se si inserisce una password vuota, viene tentata una riautenticazione basata esclusivamente sull'ACL: l'operazione va a buon fine solo se la chiave del companion è già presente nell'ACL di questo ripetitore.",
+    "_human": true
   },
   "nodes_detail_login_hint_non_empty": {
     "value": "Viene salvata dopo aver effettuato correttamente l'accesso. Tocca \"Accedi\" per inviare la password, oppure \"Prova solo con ACL\" per tentare una nuova autenticazione tramite ACL senza inviare la password.",
@@ -2363,9 +2320,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_manual_hops": {
-    "value": "Hops manuali",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Hop manuali",
+    "_human": true
   },
   "nodes_detail_manual_label": {
     "value": "Manuale",
@@ -2392,9 +2348,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_manual_path_inactive_no_hops": {
-    "value": "Inattivo · senza hopp",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Inattivo · senza hop",
+    "_human": true
   },
   "nodes_detail_manual_path_no_hops": {
     "value": "nessun hop",
@@ -2421,9 +2376,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_detail_no_neighbours": {
-    "value": "Non sono stati segnalati vicini",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Non sono stati ricevuti vicini",
+    "_human": true
   },
   "nodes_detail_no_owner_info": {
     "value": "I dati del proprietario non sono ancora stati recuperati",
@@ -2656,9 +2610,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_discover_pick_match": {
-    "value": "Scegli una partita",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Scegli",
+    "_human": true
   },
   "nodes_discover_rescan": {
     "value": "Esegui una nuova scansione",
@@ -2676,17 +2629,15 @@
     "_seeded": "2026-05-23"
   },
   "nodes_empty_msg_nothing": {
-    "value": "Non si è ancora sentito nulla del genere.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Non ho ancora ricevuto nulla di questo tipo.",
+    "_human": true
   },
   "nodes_empty_msg_repeaters": {
-    "value": "I ripetitori nelle vicinanze vengono visualizzati qui man mano che i loro annunci raggiungono il nodo dell'abbinamento.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I ripetitori nelle vicinanze vengono visualizzati qui quando i loro annunci raggiungono il nodo.",
+    "_human": true
   },
   "nodes_empty_msg_rooms": {
-    "value": "Qui vengono visualizzati gli advert dei room server.",
+    "value": "Qui vengono visualizzati gli annunci dei room server.",
     "_human": true
   },
   "nodes_empty_msg_sensors": {
@@ -2695,9 +2646,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_empty_msg_users": {
-    "value": "Gli annunci degli altri utenti vengono visualizzati qui non appena i loro pacchetti raggiungono il tuo nodo di abbinamento.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Gli altri utenti vengono visualizzati qui quando i loro annunci raggiungono il nodo.",
+    "_human": true
   },
   "nodes_empty_no_matches": {
     "value": "Nessun risultato",
@@ -2722,9 +2672,8 @@
     "_human": true
   },
   "nodes_empty_nothing": {
-    "value": "Qui non c'è niente",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Nulla",
+    "_human": true
   },
   "nodes_empty_widen_search": {
     "value": "Prova ad ampliare la ricerca.",
@@ -2737,9 +2686,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_filter_hops_hint": {
-    "value": "0 = solo i nodi rilevati direttamente dal dispositivo di abbinamento. I nodi con numero di hops sconosciuto vengono sempre visualizzati.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "0 = solo i nodi rilevati direttamente dal tuo dispositivo. I nodi con numero di hop sconosciuto vengono sempre visualizzati.",
+    "_human": true
   },
   "nodes_filter_include_online_directory": {
     "value": "Includere le voci delle directory online",
@@ -2752,14 +2700,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_filter_max_hops_label": {
-    "value": "Massimo numero di salti",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Massimo numero di hop",
+    "_human": true
   },
   "nodes_filter_network_proximity": {
-    "value": "Vicinanza di rete",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Distanza",
+    "_human": true
   },
   "nodes_filter_online_directory_hint": {
     "value": "Quando questa opzione è attiva, i ripetitori risolti tramite directory online vengono inseriti nell'elenco. Disattivala per vedere solo i nodi che abbiamo effettivamente ricevuto via radio.",
@@ -2775,7 +2721,7 @@
     "_seeded": "2026-05-23"
   },
   "nodes_filter_recency_label": {
-    "value": "Recenza",
+    "value": "Cronologico",
     "_human": true
   },
   "nodes_filter_reset": {
@@ -2817,9 +2763,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_last_heard_unknown": {
-    "value": "non ne ho mai sentito parlare",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "mai sentito",
+    "_human": true
   },
   "nodes_manage_regions_add_region": {
     "value": "Aggiungi regione",
@@ -2827,7 +2772,7 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manage_regions_affected": {
-    "value": "Usata da %1$d canale%2$s e %3$d contatto%4$s. Torneranno a nessuna regione (flood semplice).",
+    "value": "Usata da %1$d canali e %3$d contatti. Sarà azzerato a nessuna regione.",
     "_human": true
   },
   "nodes_manage_regions_allow_flood": {
@@ -2916,9 +2861,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manage_regions_save_changes_body": {
-    "value": "Ci sono modifiche alla regione non salvate. Al momento sono attive sul ripetitore, ma verranno annullate al prossimo riavvio se non vengono salvate.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ci sono modifiche alle regioni non salvate. Al momento sono attive sul ripetitore, ma verranno annullate al prossimo riavvio se non vengono salvate.",
+    "_human": true
   },
   "nodes_manage_regions_save_changes_title": {
     "value": "Salvare le modifiche?",
@@ -2926,9 +2870,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manage_regions_set_home": {
-    "value": "Imposta regione di residenza",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Imposta home region",
+    "_human": true
   },
   "nodes_manage_regions_snackbar_busy_retry": {
     "value": "Ripetitore occupato. Attendi un momento e riprova.",
@@ -2959,9 +2902,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manage_regions_snackbar_unexpected_reply": {
-    "value": "Risposta inaspettata dal ripetitore. Vedere la diagnostica.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Risposta inaspettata dal ripetitore. Controlla la diagnostica.",
+    "_human": true
   },
   "nodes_manage_regions_snackbar_unknown_parent": {
     "value": "Ripetitore rifiutato: parent sconosciuto.",
@@ -2998,9 +2940,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manual_err_bad_bytes": {
-    "value": "Impossibile leggere quei byte. Usa 6 caratteri esadecimali per ogni hop (ad es. 1faec3) e separali con virgole, spazi o caratteri di nuova riga.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Impossibile leggere quei byte. Usa 6 caratteri esadecimali per ogni hop (ad es. 1faec3) e separali con virgole, spazi o a capo.",
+    "_human": true
   },
   "nodes_manual_err_not_triple": {
     "value": "Ogni hop è di 3 byte. Il totale è di %1$d — con riempimento o troncamento.",
@@ -3013,14 +2954,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manual_err_toggle_state": {
-    "value": "Impossibile salvare lo stato dell'interruttore.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Impossibile salvare lo stato.",
+    "_human": true
   },
   "nodes_manual_footer": {
-    "value": "I byte vengono memorizzati con una larghezza di 3 byte e ridotti alla dimensione dell'hash del percorso TX attivo al momento dell'invio. Sono accettati i separatori virgola, spazio e carattere di nuova riga.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I byte vengono memorizzati con una larghezza di 3 byte e ridotti alla dimensione dell'hash del percorso TX attivo al momento dell'invio. Sono accettati i separatori virgola, spazio e a capo.",
+    "_human": true
   },
   "nodes_manual_hide_repeater_list": {
     "value": "Nascondi l'elenco dei ripetitori",
@@ -3067,9 +3006,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_manual_use_manual_path_hint": {
-    "value": "Invia utilizzando i byte riportati di seguito anziché il percorso memorizzato. Lascia i campi vuoti per inviare un Direct a salto hop.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Invia utilizzando i byte riportati di seguito anziché il percorso memorizzato. Lascia i campi vuoti per inviare a zero-hop.",
+    "_human": true
   },
   "nodes_menu_copy_public_key": {
     "value": "Copia chiave pubblica",
@@ -3112,14 +3050,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_menu_show_hidden": {
-    "value": "Mostra il testo nascosto",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Mostra nascosti",
+    "_human": true
   },
   "nodes_menu_show_hidden_checked": {
-    "value": "Mostra nascosto ✓",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Mostra nascosti ✓",
+    "_human": true
   },
   "nodes_menu_unhide": {
     "value": "Mostra",
@@ -3152,9 +3088,8 @@
     "_seeded": "2026-05-23"
   },
   "nodes_qr_error_channel": {
-    "value": "Il segreto del canale deve essere lungo 16 byte.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "La chiave del canale deve essere lunga 16 byte.",
+    "_human": true
   },
   "nodes_qr_error_contact": {
     "value": "La chiave pubblica deve avere una lunghezza di 32 byte e il tipo deve essere compreso tra 1 e 4.",
@@ -3207,14 +3142,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_set_home_clear": {
-    "value": "* (casa vuota)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "* (rimuovi home)",
+    "_human": true
   },
   "nodes_set_home_region_title": {
-    "value": "Imposta regione di residenza",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Imposta home region",
+    "_human": true
   },
   "nodes_sort_by_label": {
     "value": "Ordina per",
@@ -3222,33 +3155,28 @@
     "_seeded": "2026-05-23"
   },
   "nodes_sort_key_hops": {
-    "value": "Numero di hop",
+    "value": "Hop",
     "_human": true
   },
   "nodes_sort_key_hops_asc": {
-    "value": "Per prima cosa",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Più lontani",
+    "_human": true
   },
   "nodes_sort_key_hops_desc": {
-    "value": "Chiudi prima",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Più vicini",
+    "_human": true
   },
   "nodes_sort_key_last_heard": {
-    "value": "Ultime notizie",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Cronologico",
+    "_human": true
   },
   "nodes_sort_key_last_heard_asc": {
-    "value": "In ordine cronologico (dal più vecchio al più recente)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "dal più vecchio",
+    "_human": true
   },
   "nodes_sort_key_last_heard_desc": {
-    "value": "I più recenti per primi",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Dal più recente",
+    "_human": true
   },
   "nodes_sort_key_name": {
     "value": "Nome",
@@ -3271,14 +3199,12 @@
     "_seeded": "2026-05-23"
   },
   "nodes_sort_key_rssi_asc": {
-    "value": "Un inizio debole",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Dal più debole",
+    "_human": true
   },
   "nodes_sort_key_rssi_desc": {
-    "value": "Un ottimo inizio",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Dal più forte",
+    "_human": true
   },
   "nodes_swipe_favourite": {
     "value": "Preferiti",
@@ -3319,9 +3245,8 @@
     "_seeded": "2026-05-23"
   },
   "notif_battery_percent": {
-    "value": "%1$d %% rimanente",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "%1$d%% rimanente",
+    "_human": true
   },
   "notif_channel_mesh_link_desc": {
     "value": "Indica quando KiekR è connesso al tuo nodo tramite BLE.",
@@ -3334,9 +3259,8 @@
     "_seeded": "2026-05-23"
   },
   "notif_channel_messages_desc": {
-    "value": "Notifiche relative alle chat in arrivo e ai messaggi diretti.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Notifiche chat + DM.",
+    "_human": true
   },
   "notif_channel_messages_name": {
     "value": "Messaggi mesh",
@@ -3344,14 +3268,12 @@
     "_seeded": "2026-05-23"
   },
   "notif_discovery_body": {
-    "value": "Tocca per lasciare una recensione",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Tocca per vedere",
+    "_human": true
   },
   "notif_discovery_title": {
-    "value": "Nuova attività su # %1$s",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Nuova attività su #%1$s",
+    "_human": true
   },
   "notif_dm_title_fallback": {
     "value": "DM",
@@ -3364,9 +3286,8 @@
     "_seeded": "2026-05-23"
   },
   "notif_new_advert_title": {
-    "value": "Nuovo%1$s",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Nuovo %1$s",
+    "_human": true
   },
   "notif_sender_anon": {
     "value": "anonimo",
@@ -3389,9 +3310,8 @@
     "_seeded": "2026-05-23"
   },
   "notif_status_pairing": {
-    "value": "L'abbinamento con un bicchiere di \"%1$s\"...",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Abbinamento con %1$s…",
+    "_human": true
   },
   "notif_status_scanning": {
     "value": "Ricerca dei nodi in corso…",
@@ -3494,9 +3414,8 @@
     "_seeded": "2026-05-23"
   },
   "room_admin_cli_running": {
-    "value": "Correndo…",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "In esecuzione…",
+    "_human": true
   },
   "room_admin_cli_send": {
     "value": "Invia",
@@ -3533,7 +3452,7 @@
     "_seeded": "2026-05-23"
   },
   "room_admin_open_room_chat": {
-    "value": "Apri la chat della room",
+    "value": "Apri la room chat",
     "_human": true
   },
   "room_admin_role_admin": {
@@ -3571,9 +3490,8 @@
     "_seeded": "2026-05-23"
   },
   "room_admin_signed_in_as_admin": {
-    "value": "Acceduto come amministratore",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Collegato come amministratore",
+    "_human": true
   },
   "room_admin_signing_in": {
     "value": "Accesso in corso…",
@@ -3610,24 +3528,20 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_cd_decrease_app_hops": {
-    "value": "Ridurre il numero massimo di hops dell'app",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ridurre hop massimi dell'app",
+    "_human": true
   },
   "settings_autoadd_cd_decrease_hops": {
-    "value": "Ridurre il numero massimo di hops",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ridurre hop massimi",
+    "_human": true
   },
   "settings_autoadd_cd_increase_app_hops": {
-    "value": "Aumentare il numero massimo di hops dell'app",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Aumentare hop massimi dell'app",
+    "_human": true
   },
   "settings_autoadd_cd_increase_hops": {
-    "value": "Aumentare il numero massimo di hops",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Aumentare hop massimi",
+    "_human": true
   },
   "settings_autoadd_companion_distance_footer": {
     "value": "Gli annunci che hanno attraversato un numero di ripetitori superiore a questo non vengono aggiunti automaticamente dal dispositivo. 0 = solo diretti; 64 = illimitato (limite del firmware).",
@@ -3635,9 +3549,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_companion_distance_header": {
-    "value": "Limite di distanza (accompagnatore)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Limite di distanza (companion)",
+    "_human": true
   },
   "settings_autoadd_companion_types_footer": {
     "value": "Quando il dispositivo connesso rileva un annuncio di un tipo abilitato, memorizza il nodo nella propria tabella dei contatti — i dati vengono conservati anche dopo il riavvio e vengono trasmessi all'app al successivo aggiornamento.",
@@ -3645,9 +3558,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_companion_types_header": {
-    "value": "Tipi di annunci da aggiungere automaticamente (annunci correlati)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Tipi di annunci da aggiungere automaticamente (companion)",
+    "_human": true
   },
   "settings_autoadd_connect_hint": {
     "value": "Collega un nodo per inviare le modifiche alle impostazioni al tuo dispositivo.",
@@ -3665,14 +3577,12 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_max_hops_label": {
-    "value": "Massimo numero di salti",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Massimo numero di hop",
+    "_human": true
   },
   "settings_autoadd_not_supported_body": {
-    "value": "Il firmware del nodo in abbinamento non supporta la politica di aggiunta automatica. Esegui l'aggiornamento a MeshCore v8 o versioni successive per gestirla da qui.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Il firmware del nodo non supporta la politica di aggiunta automatica. Esegui l'aggiornamento a MeshCore v8 o versioni successive per gestirla da qui.",
+    "_human": true
   },
   "settings_autoadd_not_supported_title": {
     "value": "Non supportato su questo firmware",
@@ -3690,9 +3600,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoadd_row_chat": {
-    "value": "Chat (Compagno)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Chat (companion)",
+    "_human": true
   },
   "settings_autoadd_row_repeater": {
     "value": "Ripetitore",
@@ -3713,9 +3622,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoresolve_bg_lookups_footer": {
-    "value": "Quando è attivata, KiekR può eseguire automaticamente ricerche nella directory per individuare eventuali lacune nel contesto rilevate dall'app in modo passivo: hops sconosciuti in un percorso, ripetitori rilevati ma non ancora presenti nella directory, righe di vicini mancanti e regioni mancanti durante una scansione. Quando è disattivata (impostazione predefinita), ogni ricerca nella directory richiede un tocco.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Quando è attivata, KiekR può eseguire automaticamente ricerche nella directory per individuare eventuali lacune nel contesto rilevate dall'app in modo passivo: hops sconosciuti in un percorso, ripetitori rilevati ma non ancora presenti nella directory, vicini e regioni mancanti durante una scansione. Quando è disattivata (impostazione predefinita), ogni ricerca nella directory richiede il tuo intervento.",
+    "_human": true
   },
   "settings_autoresolve_bg_lookups_header": {
     "value": "Ricerche in background",
@@ -3733,19 +3641,16 @@
     "_seeded": "2026-05-23"
   },
   "settings_autoresolve_surface_neighbours": {
-    "value": "Righe adiacenti che il dispositivo non ha ancora rilevato",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Vicini che il dispositivo non ha ancora rilevato",
+    "_human": true
   },
   "settings_autoresolve_surface_path_hops": {
-    "value": "Salti di percorso senza nome",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "hop sul percorso senza nome",
+    "_human": true
   },
   "settings_autoresolve_surface_regions": {
-    "value": "Regioni mancanti su Discover",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Regioni mancanti",
+    "_human": true
   },
   "settings_autoresolve_surfaces_footer": {
     "value": "Le ricerche vengono effettuate esclusivamente nella directory KiekR, mai su un host di terze parti. Le letture dalla cache rimangono gratuite; questa opzione controlla la parte relativa alla rete.",
@@ -3962,24 +3867,20 @@
     "_seeded": "2026-05-23"
   },
   "settings_battery_add_anchor": {
-    "value": "Aggiungi un'ancora",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Aggiungi un segno",
+    "_human": true
   },
   "settings_battery_anchor_cd_decrement": {
-    "value": "Decrement%1$s",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Riduci %1$s",
+    "_human": true
   },
   "settings_battery_anchor_cd_delete": {
-    "value": "Elimina l'ancora",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Elimina il segno",
+    "_human": true
   },
   "settings_battery_anchor_cd_increment": {
     "value": "Aumenta %1$s",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "_human": true
   },
   "settings_battery_anchor_mv_label": {
     "value": "mV",
@@ -3987,24 +3888,20 @@
     "_seeded": "2026-05-23"
   },
   "settings_battery_anchor_percent_label": {
-    "value": "Percentuale",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Percento",
+    "_human": true
   },
   "settings_battery_anchors_footer": {
-    "value": "Le tensioni devono essere rigorosamente crescenti; le percentuali non decrescenti. Inserire degli ancoraggi nel punto mediano dello spazio più ampio.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Le tensioni devono essere rigorosamente crescenti; le percentuali non decrescenti. Inserire dei segni nel punto mediano dello spazio più ampio.",
+    "_human": true
   },
   "settings_battery_anchors_header": {
-    "value": "Ancore",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Segni",
+    "_human": true
   },
   "settings_battery_background_label": {
-    "value": "Contesto",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Background",
+    "_human": true
   },
   "settings_battery_cd_back": {
     "value": "Indietro",
@@ -4047,9 +3944,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_battery_ok": {
-    "value": "Va bene",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "OK",
+    "_human": true
   },
   "settings_battery_polling_footer": {
     "value": "La frequenza con cui l'app richiede al dispositivo la tensione della batteria. In primo piano quando l'app è aperta; in background quando è nascosta. Una cadenza più elevata comporta una lettura più aggiornata e un maggiore traffico BLE.",
@@ -4112,9 +4008,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_battery_warn_at_label": {
-    "value": "Avviso alle",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Avviso",
+    "_human": true
   },
   "settings_battery_warn_footer": {
     "value": "Avvisa quando il dispositivo collegato scende al livello di allerta. L'intervallo di riattivazione indica di quanto la percentuale deve risalire al di sopra della soglia prima che possa scattare il prossimo avviso: aumentalo se la curva di scarica della batteria raggiunge un plateau (LiFePO4, AA).",
@@ -4476,9 +4371,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_channels_conflict_body": {
-    "value": "Il tuo nodo e la tua lista locale non sono d'accordo su un canale: scegli da quale parte stare.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Il tuo nodo e la tua lista locale non sono d'accordo su un canale: scegli quello giusto.",
+    "_human": true
   },
   "settings_channels_conflict_count_many": {
     "value": "%1$d conflitti tra canali",
@@ -4655,9 +4549,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_community_map_footer": {
-    "value": "Gli mirror trasmettono gli annunci dei ripetitori alla mappa pubblica della comunità MeshCore. Solo Wi-Fi. Al massimo un upload al giorno per ripetitore.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I mirror trasmettono gli annunci dei ripetitori alla mappa pubblica della comunità MeshCore. Solo Wi-Fi. Al massimo un upload al giorno per ripetitore.",
+    "_human": true
   },
   "settings_community_community_map_header": {
     "value": "Mappa della comunità",
@@ -4705,9 +4598,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_i_understand": {
-    "value": "Capisco",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Ho capito",
+    "_human": true
   },
   "settings_community_iata_label": {
     "value": "IATA",
@@ -4770,19 +4662,16 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_paused_on_cellular_with_queue": {
-    "value": "In pausa — su cellulare · %1$d in coda",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "In pausa — su rete mobile · %1$d in coda",
+    "_human": true
   },
   "settings_community_preset_custom_name": {
-    "value": "Agente doganale",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Broker personalizzato",
+    "_human": true
   },
   "settings_community_preset_custom_subtitle": {
-    "value": "Compila tu stesso tutti i campi",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Compila tutti i campi",
+    "_human": true
   },
   "settings_community_preset_dutchmesh1_name": {
     "value": "DutchMeshCore 1",
@@ -4795,9 +4684,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_preset_letsmesh_eu_name": {
-    "value": "LetsMesh UE",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "LetsMesh Europa",
+    "_human": true
   },
   "settings_community_preset_letsmesh_us_name": {
     "value": "LetsMesh Stati Uniti",
@@ -4875,9 +4763,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_topic_raw_label": {
-    "value": "Argomento — grezzo",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Argomento — raw",
+    "_human": true
   },
   "settings_community_topic_status_label": {
     "value": "Argomento — stato",
@@ -4925,9 +4812,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_community_val_err_iata_required": {
-    "value": "È richiesta l'IATA",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "È richiesto codice IATA",
+    "_human": true
   },
   "settings_community_val_err_jwt_audience": {
     "value": "L'autenticazione JWT richiede un pubblico (ad es. mqtt-eu-v1.letsmesh.net)",
@@ -5005,9 +4891,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_customization_edge_header": {
-    "value": "Bordo",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Limite",
+    "_human": true
   },
   "settings_customization_reset_button": {
     "value": "Ripristina impostazioni predefinite",
@@ -5045,9 +4930,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_customization_workable_footer": {
-    "value": "I valori compresi tra questo limite e Strong utilizzano il colore \"Workable\".",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I valori compresi tra questo limite e \"Forte\" utilizzano il colore \"Workable\".",
+    "_human": true
   },
   "settings_customization_workable_header": {
     "value": "Realizzabile",
@@ -5105,9 +4989,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_directory_cd_decrease": {
-    "value": "Diminuzione",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Diminuire",
+    "_human": true
   },
   "settings_directory_cd_edit": {
     "value": "Modifica",
@@ -5457,7 +5340,7 @@
     "_seeded": "2026-05-23"
   },
   "settings_notifications_adverts_footer": {
-    "value": "Avvisa quando viene rilevato un nodo del tipo selezionato. Gli advert sono rumorosi per impostazione predefinita; abilita “Ripetitore” se vuoi sapere quando compaiono nuovi ripetitori.",
+    "value": "Avvisa quando viene rilevato un nodo del tipo selezionato. Gli advert possono essere parecchi; abilita “Ripetitore” se vuoi sapere quando compaiono nuovi ripetitori.",
     "_human": true
   },
   "settings_notifications_adverts_header": {
@@ -5878,16 +5761,15 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_scope_footer_none": {
-    "value": "I messaggi senza ambito vengono inviati in flood semplice. Ogni ripetitore della rete mesh li ritrasmetterà.",
+    "value": "I messaggi senza region vengono inviati in flood. Ogni ripetitore della rete mesh li ritrasmetterà.",
     "_human": true
   },
   "settings_regions_scope_footer_set": {
-    "value": "I messaggi senza ambito vengono codificati in modo trasparente per la regione %1$s. Solo i ripetitori configurati per quella regione li ritrasmetteranno.",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "I messaggi senza region vengono codificati in modo trasparente per la regione %1$s. Solo i ripetitori configurati per quella regione li ritrasmetteranno.",
+    "_human": true
   },
   "settings_regions_scope_footer_unknown": {
-    "value": "Scegli una regione da impostare come ambito predefinito del nodo abbinato, oppure “Nessuna” per il flood semplice. L’impostazione viene memorizzata sul nodo e rimane attiva anche dopo il riavvio.",
+    "value": "Scegli una regione da impostare come predefinita del nodo abbinato, oppure “Nessuna” per il flood semplice. L’impostazione viene memorizzata sul nodo e rimane attiva anche dopo il riavvio.",
     "_human": true
   },
   "settings_regions_scope_none_label": {
@@ -5906,9 +5788,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_regions_set_default_title": {
-    "value": "Impostare come regione predefinita l'%1$s?",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Impostare come regione predefinita %1$s?",
+    "_human": true
   },
   "settings_regions_show_hidden": {
     "value": "Mostra contenuto nascosto (%1$d)",
@@ -6145,9 +6026,8 @@
     "_seeded": "2026-05-23"
   },
   "settings_tools_neighbour_header": {
-    "value": "Recupero dal vicino",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Recupero vicini",
+    "_human": true
   },
   "settings_tools_open": {
     "value": "Apri",
@@ -6194,9 +6074,8 @@
     "_seeded": "2026-05-23"
   },
   "ui_connection_banner_pairing": {
-    "value": "L'abbinamento con un bicchiere di \"%1$s\"...",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Abbinamento con %1$s…",
+    "_human": true
   },
   "ui_connection_banner_scanning": {
     "value": "Ricerca dei nodi in corso…",
@@ -6204,9 +6083,8 @@
     "_seeded": "2026-05-23"
   },
   "ui_decide_later": {
-    "value": "Deciderò più tardi",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Decidi dopo",
+    "_human": true
   },
   "ui_directory_notice_body": {
     "value": "KiekR può cercare un ripetitore sconosciuto tramite il suo hash nelle directory online: una funzione utile quando un hop di percorso viene visualizzato come semplice prefisso esadecimale. Questa funzione rimane disattivata finché non la si attiva in Impostazioni → Condivisione → Directory.",
@@ -6259,14 +6137,12 @@
     "_seeded": "2026-05-23"
   },
   "ui_not_now": {
-    "value": "Non adesso",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Non ora",
+    "_human": true
   },
   "ui_ok": {
-    "value": "Va bene",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "OK",
+    "_human": true
   },
   "ui_open_settings": {
     "value": "Apri impostazioni",
@@ -6319,9 +6195,8 @@
     "_seeded": "2026-05-23"
   },
   "ui_region_use_app_value": {
-    "value": "Utilizza il valore dell'app (%1$s)",
-    "_ai": true,
-    "_seeded": "2026-05-23"
+    "value": "Usa il valore dell'app (%1$s)",
+    "_human": true
   },
   "ui_region_use_node_value": {
     "value": "Usa il valore del nodo (%1$s)",
